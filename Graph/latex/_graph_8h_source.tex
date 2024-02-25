@@ -1,0 +1,32 @@
+\hypertarget{_graph_8h_source}{}\doxysection{Graph.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00006\ \textcolor{keyword}{using\ namespace\ }std;}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00012\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_graph}{Graph}}\ \{}
+\DoxyCodeLine{00013\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00014\ \ \ \ \ vector<vector<int>>\ graph;\ }
+\DoxyCodeLine{00015\ \ \ \ \ vector<int>\ largest\_component;\ }
+\DoxyCodeLine{00016\ }
+\DoxyCodeLine{00023\ \ \ \ \ \textcolor{keywordtype}{void}\ bfs(\textcolor{keywordtype}{int}\ start,\ vector<bool>\&\ visited,\ vector<int>\&\ component);}
+\DoxyCodeLine{00024\ }
+\DoxyCodeLine{00029\ \ \ \ \ vector<vector<int>>\ find\_components();}
+\DoxyCodeLine{00030\ }
+\DoxyCodeLine{00036\ \ \ \ \ \textcolor{keywordtype}{int}\ eccentricity(\textcolor{keywordtype}{int}\ node);}
+\DoxyCodeLine{00037\ }
+\DoxyCodeLine{00038\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00043\ \ \ \ \ \mbox{\hyperlink{class_graph}{Graph}}(\textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\&\ filename);}
+\DoxyCodeLine{00044\ }
+\DoxyCodeLine{00048\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_graph_a8707ebefbed35a5987b69c2a78e6721f}{find\_largest\_component}}();}
+\DoxyCodeLine{00049\ }
+\DoxyCodeLine{00053\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_graph_a87629849786f8b9545bfcb62664966cb}{calculate\_diameter\_and\_radius}}();}
+\DoxyCodeLine{00054\ }
+\DoxyCodeLine{00058\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_graph_a05bacf3888ca2f760bb050e45517f047}{print\_largest\_component}}();}
+\DoxyCodeLine{00059\ \};}
+
+\end{DoxyCode}
